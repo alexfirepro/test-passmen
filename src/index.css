@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #07050d;
+    color: #f1f5f9;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbars for luxury theme */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0818;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b1f45;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #472b78;
+}
+
+/* Gold glow and velvet effects */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fce085 0%, #d4af37 50%, #aa7c11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border: 1px solid rgba(212, 175, 55, 0.22);
+}
+
+.velvet-card {
+  background: linear-gradient(180deg, rgba(29, 17, 49, 0.72) 0%, rgba(15, 9, 27, 0.88) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.16);
+  backdrop-filter: blur(16px);
+}
+
+.velvet-card-gold {
+  background: linear-gradient(180deg, rgba(35, 23, 44, 0.8) 0%, rgba(18, 11, 28, 0.92) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  backdrop-filter: blur(16px);
+}

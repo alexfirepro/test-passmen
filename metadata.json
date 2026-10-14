@@ -1,0 +1,6 @@
+{
+  "name": "ROYAL NOIR | Клубная карта & Кабинет гостя",
+  "description": "Премиальное мини-приложение для сети мужских клубов: цифровая карта гостя, накопительная система уровней, бронирование VIP-столов, колесо бонусов и каталог привилегий.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
